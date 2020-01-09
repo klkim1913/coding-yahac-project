@@ -1,0 +1,8 @@
+## Merge to Planning directory
+# *.xlsx
+# *.jpg
+# *.g
+# *.txt
+
+# Planning sources
+Planning/
