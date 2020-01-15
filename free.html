@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>KR's forum</title>
+    <link rel='stylesheet' href='home.css'>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Welcome to KR's forum</a></h1>
+    </header>
+    <div id="wrapper">
+        <div id="grid">
+            <nav>
+                <h2>게시판</h2>
+                <ol>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li id="active_free"><a href="free.html">자유게시판</a></li>
+                </ol>
+            </nav>
+            <article>
+                <div class="free_table">
+                    <table summary="자유게시판 목록입니다.">
+                        <!--표의 제목-->
+                        <caption>자유게시판</caption>
+                        <colgroup>
+                            <!--col태그는 표에서 하나 이상의 td태그에 대해 속성값을 정의-->
+                            <!-- 여기서는 각 열의 크기를 지정-->
+                            <col width="10%" />
+                            <col width="*" />
+                            <!--나머지 크기-->
+                            <col width="14%" />
+                            <col width="14%" />
+                            <col width="10%" />
+                        </colgroup>
+
+                        <!--테이블 머리말 부분-->
+                        <thead>
+                            <th scope="번호">번호</th>
+                            <th scope="제목">제목</th>
+                            <th scope="글쓴이">글쓴이</th>
+                            <th scope="등록일">등록일</th>
+                            <th scope="조회수">조회수</th>
+
+                        </thead>
+
+                        <!--테이블 내용 부분-->
+                        <tbody>
+                            <tr>
+                                <td>3</td>
+                                <td class="article"><a href="#none">자유게시판 내용</a></td>
+                                <td>kimKR</td>
+                                <td>2020-01-13</td>
+                                <td>21</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="article"><strong><a href="#none">자유게시판 내용</a></strong></td>
+                                <td>ChealSu</td>
+                                <td>2020-01-13</td>
+                                <td>17</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td class="article"><a href="#none">자유게시판 내용</a></td>
+                                <td>YoungHee</td>
+                                <td>2020-01-13</td>
+                                <td>53</td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="4">등록된 뉴스가 없습니다</td>
+                            </tr> -->
+                        </tbody>
+
+                        <!--테이블 꼬리말-->
+                        <tfoot>
+
+                        </tfoot>
+                    </table>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>

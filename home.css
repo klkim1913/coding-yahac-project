@@ -1,0 +1,147 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: "Helvetica", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #B19F9E;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #05386B;
+}
+
+li {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  /* border-bottom: 1px solid gray; */
+  margin: 0;
+  padding: 20px;
+  background-color: #5cdb95;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #cebc81;
+}
+
+ol {
+  width: 160px;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+nav {
+  background-color: #19181A;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+img {
+  height: 745px;
+  max-width: 80%;
+  display: block;
+  margin: 50px auto;
+}
+
+#active_notice {
+  background-color: #A16E83;
+}
+
+#active_free {
+  background-color: #479761;
+}
+
+#grid article {
+  padding-left: 25px;
+  background-color: #edf5e1;
+}
+
+article {
+  font-family: "맑은 고딕";
+  font-size: 0.9em;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+caption {
+  display: none;
+  /*안보이게 설정, 화면에 보이지는 않지만 스크린리더리로 읽어짐.*/
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  border-top: 2px solid #8d8d8d;
+  align-content: center;
+  margin: 100px auto 0px auto;
+}
+
+th {
+  padding: 10px 8px;
+  /*padding: vertical horizontal;*/
+  background: #f9f9f9;
+  color: #666;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+td {
+  padding: 10px 8px;
+  /*padding: vertical horizontal;*/
+  text-align: center;
+  line-height: 1.25em;
+  color: #666;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+td.article {
+  /*article 클래스가 적용된 열만 좌측 정렬*/
+  text-align: left;
+}
+
+@media(max-width:1165px) {
+  #grid {
+    display: block;
+  }
+
+  h1 {
+    /* border-bottom: none; */
+    font-size: 30px;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+}
