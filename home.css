@@ -33,6 +33,130 @@ h1 {
   background-color: #5cdb95;
 }
 
+#login {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 20px;
+}
+
+div#cols {
+  border: none !important;
+  padding-top: 100px;
+}
+
+.layerbox {
+  margin: 50px auto;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(102, 102, 102);
+}
+
+.layerbox .table .head,
+.layerbox .table .header {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  padding: 15px;
+}
+
+.layerbox .table div.body {
+  padding: 20px 0;
+}
+
+div.body dl {
+  padding: 0 50px;
+}
+
+dl {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+dd {
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+div.body dt {
+  text-align: left;
+  font-size: 11px;
+  margin: 15px 0 5px;
+  line-height: 11px;
+}
+
+div.body label {
+  color: #999;
+}
+
+div.body dd {
+  text-align: left;
+}
+
+div.body input.text {
+  width: 280px;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+div.btns {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.body p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.btn.btn_submit, .btn.btn_save {
+  padding: 10px 40px !important;
+  background-color: #77a6f7;
+  border: 1px solid #77a6f7;
+  color: #fff;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  padding: 2em 20px 20px 20px;
+  text-align: center;
+}
+
+div.footer a {
+  color: #666 !important;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+/* input {
+  text-rendering: auto;
+  color: -internal-light-dark-color(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  background-color: -internal-light-dark-color(white, black);
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+} */
+
 h2 {
   margin-top: 70px;
   margin-bottom: 50px;
@@ -51,7 +175,7 @@ ol {
   width: 100%;
 }
 
-nav {
+#grid nav {
   background-color: #19181A;
 }
 
@@ -91,8 +215,9 @@ a {
   color: #09f;
 }
 
-a:hover {
-  text-decoration: underline;
+#grid a:hover {
+  /* text-decoration: underline; */
+  background-color: honeydew;
 }
 
 caption {

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>KR's forum</title>
+    <link rel='stylesheet' href='home.css'>
+</head>
+
+<header>
+    <h1><a href="index.html">Welcome to KR's forum</a></h1>
+    <!-- <nav id="login">
+        <a href="login.html">로그인</a>
+    </nav> -->
+</header>
+
+<body>
+    <div id="cols" class="single-col">
+        <div class="entry-area">
+            <div id="login-static" class="layerbox">
+                <form action="/auth?mode=login&amp;returnURL=course%2F1" method="post">
+
+                    <div class="wrapper table">
+
+                        <div class="header">
+                            <strong>비밀번호 찾기</strong>
+                        </div>
+
+                        <div class="body">
+                            <dl>
+                                <p class="label">아이디를 입력해주세요.</p>
+                                <input type="text" id="id" class="text id" name="id" value="" placeholder="아이디">
+                                <script>
+                                    document.getElementById('id').focus();
+                                </script>
+                            </dl>
+
+
+                            <div class="btns">
+                                <p><button type="submit" id="" class="btn btn_submit" style="cursor: pointer">로그인</button></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer">
+                        <a href="login.html">로그인</a> |
+                        <a href="signUp.html">회원가입</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
