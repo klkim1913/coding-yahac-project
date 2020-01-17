@@ -4,14 +4,14 @@
 <head>
     <meta charset='utf-8'>
     <title>KR's forum</title>
-    <link rel='stylesheet' href='home.css'>
+    <link rel='stylesheet' href='../css/home.css'>
 </head>
 
 <body>
     <header>
-        <h1><a href="index.html">Welcome to KR's forum</a></h1>
+        <h1><a href="./index.html">Welcome to KR's forum</a></h1>
         <nav id="login">
-            <a href="login.html" id="login_status_text">로그인</a>
+            <a href="./login.html" id="login_status_text">로그인</a>
         </nav>
     </header>
     <div id="wrapper">
@@ -19,15 +19,15 @@
             <nav>
                 <h2>게시판</h2>
                 <ol>
-                    <li><a href="notice.html">공지사항</a></li>
-                    <li id="active_free"><a href="free.html">자유게시판</a></li>
+                    <li id="active_notice"><a href="./notice.html">공지사항</a></li>
+                    <li><a href="./free.html">자유게시판</a></li>
                 </ol>
             </nav>
             <article>
-                <div class="free_table">
-                    <table summary="자유게시판 목록입니다.">
+                <div class="notice_table">
+                    <table summary="공지사항 목록입니다.">
                         <!--표의 제목-->
-                        <caption>자유게시판</caption>
+                        <caption>공지사항</caption>
                         <colgroup>
                             <!--col태그는 표에서 하나 이상의 td태그에 대해 속성값을 정의-->
                             <!-- 여기서는 각 열의 크기를 지정-->
@@ -53,21 +53,21 @@
                         <tbody>
                             <tr>
                                 <td>3</td>
-                                <td class="article"><a href="#none">자유게시판 내용</a></td>
+                                <td class="article"><a href="#none">공지사항 내용</a></td>
                                 <td>kimKR</td>
                                 <td>2020-01-13</td>
                                 <td>21</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td class="article"><strong><a href="#none">자유게시판 내용</a></strong></td>
+                                <td class="article"><strong><a href="#none">공지사항 내용</a></strong></td>
                                 <td>ChealSu</td>
                                 <td>2020-01-13</td>
                                 <td>17</td>
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td class="article"><a href="#none">자유게시판 내용</a></td>
+                                <td class="article"><a href="#none">공지사항 내용</a></td>
                                 <td>YoungHee</td>
                                 <td>2020-01-13</td>
                                 <td>53</td>
@@ -84,7 +84,7 @@
                     </table>
                     <div class="boardNavigation">
                         <div class="buttonRight">
-                            <a href="" class="buttonOfficial">쓰기</a>
+                            <a href="../html/write.html" class="buttonOfficial">쓰기</a>
                         </div>
                         <div class="pagination">
                             <a href="" class="prevEnd">&lt;첫 페이지</a>
@@ -102,7 +102,7 @@
             </article>
         </div>
     </div>
-    <script src="login_status.js"></script>
+    <script src="../js/login_status.js"></script>
 </body>
 
 </html>

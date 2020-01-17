@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset='utf-8'>
+        <title>KR's forum</title>
+        <link rel='stylesheet' href='../css/home.css'>
+        <link rel="stylesheet" href="../css/write.css">
+</head>
+
+<body>
+        <header>
+                <h1><a href="./index.html">Welcome to KR's forum</a></h1>
+                <nav id="login">
+                        <a href="./login.html" id="login_status_text">로그인</a>
+                </nav>
+        </header>
+        <div id="wrapper">
+                <div id="grid">
+                        <nav>
+                                <h2>게시판</h2>
+                                <ol>
+                                        <li><a href="./notice.html" class="check_login">공지사항</a></li>
+                                        <li><a href="./free.html" class="check_login">자유게시판</a></li>
+                                </ol>
+                        </nav>
+                        <article>
+                                <form method="get" action="write_action.php">
+                                        <table id="top_table">
+                                                <tr>
+                                                        <td id="write_title">
+                                                                글쓰기
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td id="write_bg">
+                                                                <table class="table2">
+                                                                        <tr>
+                                                                                <td class="namespace">작성자</td>
+                                                                                <td><input type=text name=name size=20>
+                                                                                </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                                <td class="namespace">제목</td>
+                                                                                <td><input type=text name=title size=60>
+                                                                                </td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                                <td class="namespace">내용</td>
+                                                                                <td><textarea name=content cols=85
+                                                                                                rows=15></textarea></td>
+                                                                        </tr>
+
+                                                                        <tr>
+                                                                                <td class="namespace">비밀번호</td>
+                                                                                <td><input type=password name=pw size=10
+                                                                                                maxlength=10></td>
+                                                                        </tr>
+                                                                </table>
+
+                                                                <div id="submit_btn">
+                                                                        <input type="submit" value="작성">
+                                                                </div>
+                                                        </td>
+                                                </tr>
+                                        </table>
+                                </form>
+                        </article>
+                </div>
+        </div>
+        <script src="../js/login_status.js"></script>
+</body>
+
+</html>
